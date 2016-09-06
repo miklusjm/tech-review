@@ -1,0 +1,30 @@
+﻿@model IEnumerable<TechReviewSite.Models.Review>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+<div class="row">
+
+    @foreach (var item in Model)
+    {
+        <div class="col-md-4">
+            @Html.DisplayFor(modelItem => item.Category.Name)
+            @Html.DisplayFor(modelItem => item.Title)
+            @Html.DisplayFor(modelItem => item.Text)
+            @Html.DisplayFor(modelItem => item.Rating)
+            @Html.DisplayFor(modelItem => item.PublishDate)
+            @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+            @Html.ActionLink("Details", "Details", new { id = item.ID }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+        </div>
+    }
+
+</div>
+
