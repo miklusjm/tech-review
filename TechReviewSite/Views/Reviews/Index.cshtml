@@ -14,15 +14,15 @@
 
     @foreach (var item in Model)
     {
-        <div class="col-md-4">
-            @Html.DisplayFor(modelItem => item.Category.Name)
-            @Html.DisplayFor(modelItem => item.Title)
-            @Html.DisplayFor(modelItem => item.Text)
-            @Html.DisplayFor(modelItem => item.Rating)
-            @Html.DisplayFor(modelItem => item.PublishDate)
-            @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
-            @Html.ActionLink("Details", "Details", new { id = item.ID }) |
-            @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+        <div class="col-md-4 review">
+            <h4>@Html.DisplayFor(modelItem => item.Category.Name)</h4>
+            <h3>@Html.DisplayFor(modelItem => item.Title)</h3>
+                @Html.DisplayFor(modelItem => item.Text)
+            <h4>@Html.DisplayNameFor(model => model.Rating): @Html.DisplayFor(modelItem => item.Rating)</h4>
+                @Html.DisplayFor(modelItem => item.PublishDate)<br />
+                @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.ID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.ID })
         </div>
     }
 
