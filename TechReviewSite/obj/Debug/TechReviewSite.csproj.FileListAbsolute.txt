@@ -69,3 +69,7 @@ C:\Users\josep\OneDrive\Documents\Visual Studio 2015\Projects\TechReviewSite\Tec
 C:\Users\josep\OneDrive\Documents\Visual Studio 2015\Projects\TechReviewSite\TechReviewSite\obj\Debug\TechReviewSite.csprojResolveAssemblyReference.cache
 C:\Users\josep\OneDrive\Documents\Visual Studio 2015\Projects\TechReviewSite\TechReviewSite\obj\Debug\TechReviewSite.dll
 C:\Users\josep\OneDrive\Documents\Visual Studio 2015\Projects\TechReviewSite\TechReviewSite\obj\Debug\TechReviewSite.pdb
+C:\Users\josep\OneDrive\Documents\Visual Studio 2015\Projects\TechReviewSite\TechReviewSite\obj\Debug\TechReviewSite.Migrations.InitialCreate.resources
+C:\Users\josep\OneDrive\Documents\Visual Studio 2015\Projects\TechReviewSite\TechReviewSite\obj\Debug\TechReviewSite.csproj.GenerateResource.Cache
+C:\Users\josep\OneDrive\Documents\Visual Studio 2015\Projects\TechReviewSite\TechReviewSite\obj\Debug\TechReviewSite.Migrations.AutoTime.resources
+C:\Users\josep\OneDrive\Documents\Visual Studio 2015\Projects\TechReviewSite\TechReviewSite\obj\Debug\TechReviewSite.Migrations.DateTime2.resources

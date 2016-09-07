@@ -14,7 +14,12 @@ namespace TechReviewSite.Models
         public string Title { get; set; }           //Title of the review
         public string Text { get; set; }            //Body text of the review
         public int Rating { get; set; }             //Rating out of 5 stars
-        public DateTime PublishDate { get; set; }   //Date the review was written
+        private DateTime _date = DateTime.Now;
+        public DateTime Date
+        {
+            get { return _date; }
+            set { _date = value; }
+        }
 
         [ForeignKey("Category")]
         public int CategoryID { get; set; }
